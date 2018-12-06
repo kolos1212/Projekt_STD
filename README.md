@@ -1,3 +1,5 @@
 # Projekt_STD
 
-Do zmiany
+Karol Oskroba,
+Jakub Kędziora,
+Krzysztof Padzik
