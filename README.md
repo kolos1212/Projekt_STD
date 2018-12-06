@@ -1,5 +1,5 @@
 # Projekt_STD
 
-#Karol Oskroba,
-#Jakub Kędziora
-#Krzysztof Padzik
+Karol Oskroba,
+Jakub Kędziora
+Krzysztof Padzik
