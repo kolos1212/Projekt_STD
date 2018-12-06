@@ -3,6 +3,7 @@
 
 #include "stdafx.h"
 #include "dp1.h"
+#include <stdio.h>
 
 #define MAX_LOADSTRING 100
 
@@ -22,37 +23,38 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
                      _In_ LPWSTR    lpCmdLine,
                      _In_ int       nCmdShow)
 {
-    UNREFERENCED_PARAMETER(hPrevInstance);
-    UNREFERENCED_PARAMETER(lpCmdLine);
+	return 0;
+    //UNREFERENCED_PARAMETER(hPrevInstance);
+    //UNREFERENCED_PARAMETER(lpCmdLine);
 
-    // TODO: W tym miejscu umieść kod.
+    //// TODO: W tym miejscu umieść kod.
 
-    // Zainicjuj ciągi globalne
-    LoadStringW(hInstance, IDS_APP_TITLE, szTitle, MAX_LOADSTRING);
-    LoadStringW(hInstance, IDC_DP1, szWindowClass, MAX_LOADSTRING);
-    MyRegisterClass(hInstance);
+    //// Zainicjuj ciągi globalne
+    //LoadStringW(hInstance, IDS_APP_TITLE, szTitle, MAX_LOADSTRING);
+    //LoadStringW(hInstance, IDC_DP1, szWindowClass, MAX_LOADSTRING);
+    //MyRegisterClass(hInstance);
 
-    // Wykonaj inicjacje aplikacji:
-    if (!InitInstance (hInstance, nCmdShow))
-    {
-        return FALSE;
-    }
+    //// Wykonaj inicjacje aplikacji:
+    //if (!InitInstance (hInstance, nCmdShow))
+    //{
+    //    return FALSE;
+    //}
 
-    HACCEL hAccelTable = LoadAccelerators(hInstance, MAKEINTRESOURCE(IDC_DP1));
+    //HACCEL hAccelTable = LoadAccelerators(hInstance, MAKEINTRESOURCE(IDC_DP1));
 
-    MSG msg;
+    //MSG msg;
 
-    // Główna pętla wiadomości:
-    while (GetMessage(&msg, nullptr, 0, 0))
-    {
-        if (!TranslateAccelerator(msg.hwnd, hAccelTable, &msg))
-        {
-            TranslateMessage(&msg);
-            DispatchMessage(&msg);
-        }
-    }
+    //// Główna pętla wiadomości:
+    //while (GetMessage(&msg, nullptr, 0, 0))
+    //{
+    //    if (!TranslateAccelerator(msg.hwnd, hAccelTable, &msg))
+    //    {
+    //        TranslateMessage(&msg);
+    //        DispatchMessage(&msg);
+    //    }
+    //}
 
-    return (int) msg.wParam;
+    //return (int) msg.wParam;
 }
 
 
