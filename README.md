@@ -1,4 +1,3 @@
-tu wersje <<<+
 # Projekt_STD
 
 Karol Oskroba,
